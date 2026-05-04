@@ -1,0 +1,80 @@
+<?php
+/**
+ * @copyright       (c) 2000-2026 XOOPS Project (https://xoops.org)
+ * @license             GNU GPL 2 (https://www.gnu.org/licenses/gpl-2.0.html)
+ * _LANGCODE    ur
+ * _CHARSET     UTF-8
+ */
+define('_MI_SYSTEM_NAME', 'نظام');
+define('_MI_SYSTEM_DESC', 'سائٹ کی بنیادی ترتیبات کی انتظامیہ کے لیے۔');
+define('_MI_SYSTEM_BNAME2', 'صارف مینو');
+define('_MI_SYSTEM_BNAME3', 'لاگ ان');
+define('_MI_SYSTEM_BNAME4', 'تلاش');
+define('_MI_SYSTEM_BNAME5', 'زیر انتظار مواد');
+define('_MI_SYSTEM_BNAME6', 'مرکزی مینو');
+define('_MI_SYSTEM_BNAME7', 'سائٹ کی معلومات');
+define('_MI_SYSTEM_BNAME8', 'کون آن لائن ہے');
+define('_MI_SYSTEM_BNAME9', 'سب سے زیادہ پوسٹ کرنے والے');
+define('_MI_SYSTEM_BNAME10', 'نئے اراکین');
+define('_MI_SYSTEM_BNAME11', 'حالیہ تبصرے');
+define('_MI_SYSTEM_BNAME12', 'اطلاع کے اختیارات');
+define('_MI_SYSTEM_BNAME13', 'تھیمز');
+define('_MI_SYSTEM_ADMENU1', 'بینرز');
+define('_MI_SYSTEM_ADMENU2', 'بلاکس');
+define('_MI_SYSTEM_ADMENU3', 'گروہ');
+define('_MI_SYSTEM_ADMENU5', 'ماڈیول');
+define('_MI_SYSTEM_ADMENU6', 'ترجیحات');
+define('_MI_SYSTEM_ADMENU7', 'اسمائلز');
+define('_MI_SYSTEM_ADMENU9', 'صارف درجات');
+define('_MI_SYSTEM_ADMENU10', 'صارف ترمیم کریں');
+define('_MI_SYSTEM_ADMENU11', 'صارفین کو ای میل');
+define('_MI_SYSTEM_ADMENU12', 'صارفین تلاش کریں');
+define('_MI_SYSTEM_ADMENU13', 'تصاویر');
+define('_MI_SYSTEM_ADMENU14', 'اوتار');
+define('_MI_SYSTEM_ADMENU15', 'سانچے');
+define('_MI_SYSTEM_ADMENU16', 'تبصرے');
+define('_MI_SYSTEM_PREFERENCE_BREAK_GENERAL', 'عمومی ترتیبات');
+define('_MI_SYSTEM_PREFERENCE_TIPS', 'آن لائن مدد؟');
+define('_MI_SYSTEM_PREFERENCE_TIPS_DSC', 'یہ آپ کو ٹپس اور آن لائن مدد فراہم کرتا ہے۔');
+define('_MI_SYSTEM_PREFERENCE_ICONS', 'شبیہیں');
+define('_MI_SYSTEM_PREFERENCE_BREADCRUMB', 'بریڈ کرمب');
+define('_MI_SYSTEM_PREFERENCE_BREAK_ACTIVE', 'فعال سیکشن');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_AVATARS', 'فعال اوتار');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BANNERS', 'فعال بینر');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_BLOCKSADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_COMMENTS', 'فعال تبصرے');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_FILEMANAGER', 'ایکٹو فائل مینیجر');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_GROUPS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_IMAGES', 'ایکٹو امیجز مینیجر');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAILUSERS', 'فعال ای میل صارفین');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MODULESADMIN', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_PREFERENCES', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_SMILIES', 'فعال اسمائلی');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_TPLSETS', '');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERRANK', 'فعال صارف درجہ بندی');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_USERS', 'فعال صارفین');
+define('_MI_SYSTEM_PREFERENCE_ACTIVE_MAINTENANCE', 'فعال دیکھ بھال');
+define('_MI_SYSTEM_PREFERENCE_BREAK_PAGER', 'انتظامیہ میں ظاہر کرنے کے لیے قطاروں کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_AVATARS_PAGER', 'فی صفحہ ظاہر کرنے کے لیے اوتاروں کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_BANNERS_PAGER', 'فی صفحہ ڈسپلے کرنے کے لیے بینرز کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_PAGER', 'فی صفحہ ظاہر کرنے کے لیے تبصروں کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_GROUPS_PAGER', 'فی صفحہ ظاہر کرنے کے لیے گروپس کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_IMAGES_PAGER', 'فی صفحہ ڈسپلے کرنے کے لیے تصاویر کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_SMILIES_PAGER', 'فی صفحہ دکھانے کے لیے مسکراہٹوں کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_USERRANKS_PAGER', 'فی صفحہ ظاہر کرنے کے لیے رینک کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_USERS_PAGER', 'فی صفحہ ظاہر کرنے کے لیے صارفین کی تعداد');
+define('_MI_SYSTEM_PREFERENCE_BREAK_EDITOR', 'ایڈیٹر کی ترتیبات');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR', 'بلاکس کا ایڈیٹر:');
+define('_MI_SYSTEM_PREFERENCE_BLOCKS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR', 'تبصروں کا ایڈیٹر:');
+define('_MI_SYSTEM_PREFERENCE_COMMENTS_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR', 'تمام ماڈیول کا ایڈیٹر:');
+define('_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC', '');
+define('_MI_SYSTEM_PREFERENCE_ANONPOST', '');
+define('_MI_SYSTEM_PREFERENCE_REDIRECT', '');
+define('_MI_SYSTEM_PREFERENCE_JQUERY_THEME', 'jQuery تھیم');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE', 'عارضی طور پر غیر فعال کریں');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL', 'ای میل');
+define('_MI_DEFAULT_NOTIFICATION_METHOD_PM', 'ذاتی پیغام');
+define('_MI_SYSTEM_MENUS_ACTIVE', 'مینو سسٹم کو فعال کریں۔');
+define('_MI_SYSTEM_MENUS_ACTIVE_DESC', 'سائٹ نیویگیشن کے لیے بلٹ ان مینو مینجمنٹ سسٹم کو فعال کریں۔');

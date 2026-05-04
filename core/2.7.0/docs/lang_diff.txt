@@ -1,0 +1,662 @@
+زبان کے فرق
+=====================
+
+ذیل میں ایک ورژن سے اگلے ورژن تک زبان کے فرق ہیں۔
+
+================================
+2025/03/30: ورژن 2.7.0-بیٹا (پہلے 2.5.12-بیٹا کے طور پر جاری کیا گیا تھا)
+================================
+/htdocs/modules/system/language/english/admin.php
+- ڈیفائن ('_AM_SYSTEM_MENUS'، 'مینوز') شامل کیا گیا؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_DESC'، 'سائٹ نیویگیشن مینیو کا نظم کریں') شامل کیا گیا؛
+
+/htdocs/modules/system/language/english/modinfo.php
+- ڈیفائن شامل کی گئی('_MI_SYSTEM_MENUS_ACTIVE'، 'مینیو سسٹم کو فعال کریں')؛
+- ڈیفائن ('_MI_SYSTEM_MENUS_ACTIVE_DESC'، 'سائٹ نیویگیشن کے لیے بلٹ ان مینو مینجمنٹ سسٹم کو فعال کریں')؛
+
+/htdocs/modules/system/language/english/admin/menus.php (نئی فائل)
+- ڈیفائن ('_AM_SYSTEM_MENUS_NAV_MAIN'، 'مینو مینیجر') شامل کیا گیا؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_NAV_BACK'، 'مینو لسٹ پر واپس') شامل کیا گیا؛
+- ​​ڈیفائن ('_AM_SYSTEM_MENUS_NAV_CATEGORY'، 'زمرہ دیکھیں') شامل کیا گیا؛
+- شامل کردہ define('_AM_SYSTEM_MENUS_NAV_TIPS', '<strong>تجاویز:</strong><ul>...')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_ACTIVE'، 'فعال') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ACTIVE_YES'، 'فعال')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ACTIVE_NO'، 'غیر فعال')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_SAVED'، 'کامیابی سے محفوظ')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_DELETED'، 'کامیابی سے حذف کر دیا گیا')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ORDER_SAVED'، 'آرڈر محفوظ کیا گیا')؛
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_LISTCAT'، 'فہرست زمرہ جات')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_LISTITEM'، 'فہرست آئٹمز') شامل کیا گیا؛
+- ​​ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ADDCAT'، 'زمرہ شامل کریں')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_EDITCAT'، 'زمرہ میں ترمیم کریں')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_DELCAT'، 'کیٹیگری کو حذف کریں')؛
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_CATTITLE'، 'زمرہ کا عنوان')؛
+- ڈیفائن شامل کی گئی
+- ڈیفائن ('_AM_SYSTEM_MENUS_CATPREFIX'، 'پریفکس (HTML)') شامل کیا گیا؛
+- ڈیفائن شامل کیا گیا('_AM_SYSTEM_MENUS_CATPREFIX_DESC', 'اختیاری مارک اپ زمرہ کے عنوان سے پہلے دکھایا گیا، جیسے کہ فونٹ کا زبردست آئیکن۔');
+- ڈیفائن ('_AM_SYSTEM_MENUS_CATSUFFIX'، 'لاحقہ (HTML)') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_CATSUFFIX_DESC'، 'اختیاری مارک اپ زمرہ کے عنوان کے بعد دکھایا گیا ہے۔');
+- ڈیفائن ('_AM_SYSTEM_MENUS_CATURL'، 'URL') شامل کیا گیا؛
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_CATURL_DESC'، 'ذہن زمرے کے لیے لنک، جیسے "index.php" یا ایک مطلق URL۔');
+- ​​شامل کیا گیا define('_AM_SYSTEM_MENUS_CATTARGET'، 'لنک ٹارگٹ')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_CATPOSITION'، 'پوزیشن')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_DELCAT_CONFIRM'، 'کیا آپ واقعی زمرہ "%s" اور اس کی تمام اشیاء کو حذف کرنا چاہتے ہیں؟');
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ADDITEM'، 'آئٹم شامل کریں')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_EDITITEM'، 'آئٹم میں ترمیم کریں')؛
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_DELITEM'، 'آئٹم حذف کریں')؛
+- ​​ڈیفائن ('_AM_SYSTEM_MENUS_ITEMTITLE'، 'آئٹم کا عنوان') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ITEMTITLE_DESC', 'ایک زبان کا مستقل نام یہاں استعمال کیا جا سکتا ہے تاکہ لیبل قابل ترجمہ ہو۔');
+- ڈیفائن ('_AM_SYSTEM_MENUS_ITEMPREFIX'، 'پریفکس (HTML)') شامل کیا گیا؛
+- ​​شامل کیا گیا define('_AM_SYSTEM_MENUS_ITEMPREFIX_DESC'، 'اختیاری مارک اپ آئٹم کے عنوان سے پہلے دکھایا گیا، جیسے فونٹ کا زبردست آئیکن۔');
+- ڈیفائن ('_AM_SYSTEM_MENUS_ITEMSUFFIX'، 'لاحقہ (HTML)') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ITEMURL', 'URL')؛
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_ITEMTARGET'، 'لنک ٹارگٹ')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_ITEMPOSITION'، 'پوزیشن') شامل کیا گیا؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_ITEMPARENT'، 'والدین آئٹم') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ITEMCATEGORY', 'زمرہ')؛
+- ​​شامل کیا گیا define('_AM_SYSTEM_MENUS_DELITEM_CONFIRM', 'کیا آپ واقعی آئٹم "%s" اور اس کے ذیلی آئٹمز کو حذف کرنا چاہتے ہیں؟');
+- ڈیفائن ('_AM_SYSTEM_MENUS_TARGET_SELF'، 'Same window') شامل کیا گیا؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_TARGET_BLANK'، 'نئی ونڈو') شامل کی گئی؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY'، 'وہ گروپ جو اس زمرے کو دیکھ سکتے ہیں')؛
+- ڈیفائن کو شامل کیا گیا('_AM_SYSTEM_MENUS_PERMISSION_VIEW_CATEGORY_DESC', 'صارفین کو زمرہ تک رسائی حاصل ہونی چاہیے اس سے پہلے کہ اس کی کوئی بھی آئٹم نظر آئے۔');
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM'، 'وہ گروپ جو اس آئٹم کو دیکھ سکتے ہیں')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_PERMISSION_VIEW_ITEM_DESC', 'آئٹم کی اجازتوں کو پیرنٹ کے زمرے کی اجازت کے بعد چیک کیا جاتا ہے۔');
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_ERROR_CATNOTFOUND'، 'زمرہ نہیں ملا')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ERROR_CATPROTECTED'، 'محفوظ زمرہ کو حذف نہیں کیا جا سکتا')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_ERROR_CATINACTIVE'، 'چالو نہیں کیا جا سکتا: زمرہ غیر فعال ہے')؛
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_ERROR_ITEMNOTFOUND'، 'آئٹم نہیں ملا')؛
+- ڈیفائن کو شامل کیا گیا('_AM_SYSTEM_MENUS_ERROR_ITEMPROTECTED'، 'محفوظ شے کو حذف نہیں کیا جا سکتا')؛
+- ڈیفائن کو شامل کیا گیا('_AM_SYSTEM_MENUS_ERROR_ITEMPARENT'، 'غلط پیرنٹ آئٹم منتخب کیا گیا')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_ERROR_ITEMCYCLE'، 'والدین کو سیٹ نہیں کیا جا سکتا: یہ ایک سرکلر حوالہ بنائے گا')؛
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MENUS_ERROR_ITEMDEPTH', 'گھوںسلا کی زیادہ سے زیادہ گہرائی (3 سطحیں) تجاوز کر گئی')؛
+- ڈیفائن شامل کیا گیا('_AM_SYSTEM_MENUS_ERROR_PARENTINACTIVE'، 'چالو نہیں کیا جا سکتا: پیرنٹ آئٹم غیر فعال ہے')؛
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_ERROR_NOITEMS', 'اس زمرے میں کوئی ذیلی مینیو آئٹمز نہیں ہیں۔');
+- شامل کیا گیا define('_AM_SYSTEM_MENUS_ERROR_ITEMEDIT'، 'اس آئٹم میں ترمیم کرنے سے پہلے اسے فعال کریں')؛
+- ڈیفائن ('_AM_SYSTEM_MENUS_ERROR_ITEMDISABLE'، 'اس آئٹم کو حذف کرنے سے پہلے اسے فعال کریں') شامل کیا گیا ہے؛
+- ڈیفائن شامل کی گئی ('MENUS_HOME', 'Home')؛
+- ڈیفائن شامل کی گئی ('MENUS_ADMIN'، 'انتظامیہ')؛
+- ڈیفائن شامل کی گئی ('MENUS_ACCOUNT'، 'اکاؤنٹ')؛
+- ڈیفائن شامل کی گئی('MENUS_ACCOUNT_EDIT'، 'اکاؤنٹ میں ترمیم کریں')؛
+- شامل کی تعریف ('MENUS_ACCOUNT_LOGIN', 'لاگ ان')؛
+- ​​ڈیفائن شامل کی گئی('MENUS_ACCOUNT_LOGOUT'، 'لاگ آؤٹ')؛
+- ڈیفائن شامل کی گئی('MENUS_ACCOUNT_REGISTER'، 'سائن اپ')؛
+- ڈیفائن شامل کی گئی('MENUS_ACCOUNT_MESSAGES'، 'پیغامات')؛
+- ڈیفائن شامل کی گئی('MENUS_ACCOUNT_NOTIFICATIONS'، 'اطلاعات')؛
+- ڈیفائن شامل کی گئی('MENUS_ACCOUNT_TOOLBAR'، 'ٹول بار')؛
+
+/htdocs/modules/system/constants.php
+- ڈیفائن شامل کی گئی ('XOOPS_SYSTEM_MENUS'، 19)؛
+
+/htdocs/modules/system/language/english/blocks.php
+-added define('_MB_SYSTEM_WAITING_CONTENT_DEPRECATED', "بلاک 'انتظار کے مواد' کو XOOPS 2.5.11 سے فرسودہ کر دیا گیا ہے، براہ کرم انتظار کا ماڈیول استعمال کریں")؛
+
+/htdocs/install/language/english/welcome.php
+- PHP اور MySQL ورژن کو اپ ڈیٹ کیا گیا۔
+
+/htdocs/modules/pm/language/english/main.php
+- اپ ڈیٹ کیا گیا define('_PM_EMAIL_DESC', 'پیارے %s، یہ ایک پیغام ہے جو آپ کے اکاؤنٹ سے '. $GLOBALS['xoopsConfig']['sitename'] پر منتقل کیا گیا ہے)؛
+- اپ ڈیٹ کیا گیا define('_PM_EMAIL_DESC', 'پیارے %s، یہ ایک پیغام ہے جو آپ کے اکاؤنٹ سے '. $GLOBALS['xoopsConfig']['sitename'] پر منتقل کیا گیا ہے)؛
+
+/htdocs/language/english/user.php
+- اپ ڈیٹ ڈیفائن('_US_SORRYNOTFOUND', 'معذرت، کوئی متعلقہ صارف کی معلومات نہیں ملی۔');
+- اپ ڈیٹ ڈیفائن('_US_SORRYNOTFOUND', 'اگر کوئی اکاؤنٹ فراہم کردہ معلومات سے میل کھاتا ہے، تو ہم آپ کی درخواست پر کارروائی کریں گے۔ اگر آپ کو جلد ہی کوئی ای میل موصول نہیں ہوتی ہے، تو براہ کرم اپنے اسپام فولڈر کو چیک کریں یا سائٹ کے منتظم سے رابطہ کریں۔');
+
+- اپ ڈیٹ ڈیفائن('_US_PWDMAILED', 'پاس ورڈ برائے %s میل کیا گیا')؛
+- اپ ڈیٹ ڈیفائن('_US_PWDMAILED'، 'اگر اس ای میل کے لیے کوئی اکاؤنٹ موجود ہے، تو آپ کو پاس ورڈ دوبارہ ترتیب دینے کی ہدایات موصول ہوں گی۔ ضرورت پڑنے پر اپنا اسپام فولڈر چیک کریں یا سائٹ کے منتظم سے رابطہ کریں۔');
+
+- اپ ڈیٹ کیا گیا define('_US_CONFMAIL', 'تصدیق ای میل برائے %s میل کیا گیا۔');
+- اپ ڈیٹ ڈیفائن('_US_CONFMAIL'، 'اگر اس ای میل کے لیے کوئی اکاؤنٹ موجود ہے، تو آپ کو پاس ورڈ دوبارہ ترتیب دینے کی ہدایات موصول ہوں گی۔ ضرورت پڑنے پر اپنا اسپام فولڈر چیک کریں یا سائٹ کے منتظم سے رابطہ کریں۔');
+
+/htdocs/class/xoopseditor/tinymce5/language/english.php
+- _XOOPS_EDITOR_TINYMCE_LANGUAGE5 کا نام _XOOPS_EDITOR_TINYMCE5_LANGUAGE رکھ دیا گیا
+
+/htdocs/modules/system/themes/transition/language/english/admin.php
+- _OXYGEN_Server_API کا نام _OXYGEN_SERVER_API رکھ دیا گیا
+
+/htdocs/modules/system/language/english/admin/preferences.php۔
+- شامل کیا گیا define('_MD_AM_SENDMAIL_NOT_FOUND', 'Sendmail بائنری نہیں ملا۔ براہ کرم اپنے سرور کی ترتیب چیک کریں۔');
+- شامل کیا گیا define('_MD_AM_SENDMAIL_HELP_MISSING_BIN', 'کوئی درست سینڈ میل سے مطابقت رکھنے والی بائنری کا پتہ نہیں چلا۔ MTA انسٹال کریں (جیسے پوسٹ فکس، msmtp) یا ترجیحات میں SMTP پر سوئچ کریں۔');
+
+/htdocs/modules/system/language/english/admin/users.php
+- ڈیفائن ('_AM_SYSTEM_USERS_UNKNOWN_GROUP'، 'نامعلوم گروپ') شامل کیا گیا؛
+
+/htdocs/modules/system/language/english/comment.php
+- ڈیفائن شامل کی گئی('_CM_ADDCOMMENT'، 'تبصرہ شامل کریں')؛
+
+
+/htdocs/install/language/english/install.php
+- ڈیفائن ('_WEBSITE_NAME'، 'XOOPS سائٹ') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('_WEBSITE_SLOGAN'، 'بس اسے استعمال کریں!')؛
+- ڈیفائن ('_WEBSITE_META_KEYWORDS'، 'xoops، ویب ایپلیکیشن فریم ورک، cms، مواد کے انتظام کا نظام') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('_WEBSITE_FOOTER', "Powered by XOOPS © 2001-{X_YEAR} <a href='https://xoops.org' rel='external' title='The XOOPS Project'>The XOOPS پروجیکٹ</a>");
+- ڈیفائن ('_WEBSITE_COPYRIGHT'، 'کاپی رائٹ © 2001-{X_YEAR}') شامل کیا گیا؛
+- شامل کیا گیا define('_WEBSITE_DESCRIPTION', 'XOOPS ایک متحرک آبجیکٹ اورینٹڈ پر مبنی اوپن سورس پورٹل اسکرپٹ ہے جو PHP میں لکھا گیا ہے۔');
+- ڈیفائن ('_WEBSITE_CENSOR_REPLACE'، 'OOPS') شامل کیا گیا؛
+
+
+================================
+2023/10/01: ورژن 2.5.11-فائنل
+================================
+/language/english/uploader.php
+-added define('_ER_UP_MODE_NOT_CHANGED', 'فائل اپ لوڈ کی گئی، لیکن موڈ کو تبدیل نہیں کیا جا سکا')؛
+
+================================
+2023/10/01: ورژن 2.5.11-RC3
+================================
+
+تبدیل شدہ فائلیں:
+upgrade/language/english/upgrade.php
+اپ گریڈ/language/english/smarty3.php
+
+htdocs/class/xoopseditor/tinymce/language/english.php
+- ڈیفائن شامل کی گئی('_FAILGETIMG', 'تصویر حاصل کرنے میں ناکام %s')؛
+
+/htdocs/modules/system/language/english/modinfo.php
+- ڈیفائن شامل کی گئی('_MI_DEFAULT_NOTIFICATION_METHOD_DISABLE'، 'عارضی طور پر غیر فعال')؛
+- ڈیفائن ('_MI_DEFAULT_NOTIFICATION_METHOD_EMAIL'، 'ای میل') شامل کیا گیا؛
+- ​​شامل کیا گیا define('_MI_DEFAULT_NOTIFICATION_METHOD_PM'، 'نجی پیغام')؛
+
+/htdocs/modules/system/language/english/admin/preferences.php
+- ڈیفائن ('_MD_AM_DEFAULT_NOTIFICATION_METHOD'، 'پہلے سے طے شدہ اطلاع کا طریقہ') شامل کیا گیا؛
+- ڈیفائن شامل کیا گیا('_MD_AM_DEFAULT_NOTIFICATION_METHOD_DESC'، 'نئے صارفین کے لیے جب وہ نوٹیفیکیشن کو سبسکرائب کرتے ہیں، جیسے کہ ایک فورم۔');
+- وضاحت شامل کی گئی ('_MD_AM_MODULEPREF'،
+
+
+================================
+2023/03/19: ورژن 2.5.11-RC1
+================================
+
+تبدیل شدہ فائلیں:
+htdocs/language/english/global.php
+- ڈیفائن ('_DB_QUERY_ERROR'، 'استفسار ناکام! SQL: %s - ایرر:') شامل کیا گیا
+- ڈیفائن ('_PRINT'، 'پرنٹ') شامل کیا گیا؛
+- ڈیفائن ('_PDF', 'PDF') شامل کیا گیا؛
+- ​​شامل کی تعریف ('_OFF'، 'آف')؛
+
+================================
+2021/09/02: ورژن 2.5.11-بیٹا
+================================
+
+تبدیل شدہ فائلیں:
+htdocs/language/english/admin.php
+- ڈیفائن ('_AD_WARNING_NO_XML'، 'پی ایچ پی ایکس ایم ایل ایکسٹینشن اس فنکشن کے لیے درکار ہے۔');
+
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- ڈیفائن ('_AM_ADMINSTATS_LAST_MONTH'، 'پچھلا مہینہ') شامل کیا گیا؛
+- ڈیفائن ('_AM_ADMINSTATS_LAST_WEEK'، 'پچھلا ہفتہ') شامل کیا گیا؛
+- ڈیفائن ('_AM_ADMINSTATS_LAST_DAY'، 'آخری دن') شامل کیا گیا؛
+- ​​ڈیفائن ('_AM_ADMINSTATS_LAST_HOUR'، 'آخری گھنٹہ') شامل کیا گیا؛
+
+htdocs/language/english/global.php
+- ڈیفائن ('_PRINT'، 'پرنٹ') شامل کیا گیا؛
+- ڈیفائن ('_PDF', 'PDF') شامل کیا گیا؛
+- ​​شامل کی تعریف ('_OFF'، 'آف')؛
+- تبدیل شدہ تعریف ('_ON'، 'آن')؛ //'پر' سے
+
+htdocs/language/english/global.php
+- ​​تبدیل شدہ تعریف('_SIZE'، 'سائز')؛ // فونٹ سائز
+- تبدیل شدہ تعریف ('_FONT'، 'فونٹ')؛ // فونٹ فیملی
+- تبدیل شدہ تعریف ('_COLOR'، 'رنگ')؛ // فونٹ کا رنگ
+
+htdocs/install/language/english/install.php
+- ڈیفائن ('ERR_COPY_CONFIG_FILE'، 'کنفگریشن فائل کو کاپی نہیں کیا جا سکا %s')؛
+
+htdocs/install/language/english/welcome.php
+- تجویز کردہ پی ایچ پی اور مائی ایس کیو ایل ورژن کو تبدیل کر دیا گیا، لنکس کو "https:" میں تبدیل کر دیا گیا
+
+htdocs/modules/system/language/english/admin/preferences.php
+- تبدیل شدہ define('_MD_AM_SMTPHOSTDESC', 'یا تو ایک ہی میزبان نام یا ایک سے زیادہ سیمکولن سے محدود کردہ میزبان نام۔<br>آپ اس فارمیٹ کو استعمال کرکے ہر میزبان کے لیے ایک مختلف پورٹ بھی متعین کر سکتے ہیں: [میزبان نام:پورٹ] (جیسے "smtp1.example.com). خفیہ کاری کی قسم کی بھی وضاحت کریں، مثال کے طور پر: (جیسے "tls://smtp1.example.com:587;ssl://smtp2.example.com:465")۔<br>میزبان ترتیب سے آزمائے جائیں گے۔');
+
+htdocs/modules/system/language/english/help/blocksadmin.html
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- تبدیل شدہ define('_AM_SYSTEM_MODULES_ADMIN', 'XOOPS ماڈیول ایڈمنسٹریشن')؛
+
+نئی فائلیں:
+htdocs/themes/xswatch4/language/english/main.php
+xswatch/language/english/main.php کی کاپی کے طور پر شروع کیا پھر:
+- ڈیفائن ('THEME_TOOLBAR_DEBUGMODE'، 'ڈیبگ موڈ') شامل کیا گیا؛
+- ڈیفائن ('THEME_TOOLBAR_THIS_MODULE'، 'یہ ماڈیول') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی ('THEME_PERMISSIONS_LEGEND'، 'اجازتیں اور لیجنڈ')؛
+- ڈیفائن ('THEME_INBOX_ALERT'، 'PM الرٹ') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('THEME_INBOX_LINK'، 'اپنا ان باکس دیکھنے کے لیے یہاں کلک کریں!')؛
+- ڈیفائن شامل کی گئی ('THEME_EVENT_DOWNLOADS'، 'ایونٹ ڈاؤن لوڈز')؛
+- ​​ڈیفائن ('THEME_FILE_NAME'، 'فائل') شامل کیا گیا؛
+- ڈیفائن ('THEME_FILE_SIZE'، 'سائز') شامل کیا گیا؛
+- ڈیفائن ('THEME_CONTROL_NEXT'، 'اگلا') شامل کیا گیا؛
+- ڈیفائن ('THEME_CONTROL_PREVIOUS'، 'پچھلا') شامل کیا گیا؛
+
+htdocs/language/english/user.php
+- ڈیفائن ('_US_DESCRIPTIONMIN'، 'کم از کم مطلوبہ لمبائی: %s') شامل کی گئی؛
+- ڈیفائن شامل کی گئی('_US_DESCRIPTIONMAX'، 'زیادہ سے زیادہ لمبائی: %s')؛
+
+htdocs/modules/system/language/english/admin/mailusers.php
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MAILUSERS_MAILTAGS5'، '{X_NAME} پرنٹ کرے گا نام یا نام اگر خالی ہے')؛
+
+htdocs/modules/system/language/english/admin/images.php
+- ڈیفائن شامل کی گئی("_AM_SYSTEM_IMAGES_SCATDELNG","اس زمرے کو حذف نہیں کر سکتے")؛
+
+htdocs/modules/system/language/english/admin/modulesadmin.php
+- ​​ڈیفائن ('_AM_SYSTEM_MODULES_INSTALL_THISMODULE'، 'یہ ماڈیول ایڈمن') شامل کیا گیا؛
+
+حذف شدہ فائلیں:
+htdocs/modules/system/language/english/admin/users.php
+- حذف شدہ define('_AM_SYSTEM_USERS_MODIFYUSER'، 'صارف میں ترمیم کریں')؛
+- حذف شدہ define('_AM_SYSTEM_USERS_DELUSER'، 'صارف کو حذف کریں')؛
+- ڈیفائن کو حذف کر دیا گیا('_AM_SYSTEM_USERS_GO', 'گو!')؛
+
+================================
+29/04/2019: ورژن 2.5.10 فائنل
+================================
+شامل کردہ/حذف شدہ تعریفیں:
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- ڈیفائن ('_AM_LABEL_BAN_BY_IP'، 'چیک شدہ ریکارڈز پر آئی پی پر پابندی لگا دیں:')؛
+- ڈیفائن شامل کی گئی('_AM_BUTTON_BAN_BY_IP', 'IP پابندی!')؛
+- ڈیفائن شامل کی گئی('_AM_JS_BANCONFIRM', 'IP پابندی ٹھیک ہے؟');
+- ڈیفائن شامل کی گئی('_AM_MSG_BANNEDIP'، 'IPs پر پابندی ہے')؛
+- ڈیفائن ('_AM_ADMINSTATS_TITLE'، 'محافظ لاگ سمری') شامل کیا گیا؛
+
+htdocs/xoops_lib/modules/protector/language/english/modinfo.php
+- شامل کیا گیا define($constpref . '_ADMINSTATS'، 'Overview')؛
+- ​​ڈیفائن ($constpref . '_BANIP_TIME0DSC'، 'خودکار IP پابندیوں کے لیے معطلی کا وقت سیکنڈ میں') شامل
+
+htdocs/language/english/uploader.php
+- ڈیفائن ('_ER_UP_INDEXNOTSET'، 'متعدد فائل لانے کی کوشش، انڈیکس سیٹ ہونا ضروری ہے۔');
+
+htdocs/language/english/admin.php
+- ڈیفائن ('_AD_WARNING_OLD_PHP', 'انتباہ: PHP کے نئے ورژن میں اپ گریڈ کرنے پر غور کریں۔ ورژن %s یا اس سے نئے کی سفارش کی جاتی ہے اور مستقبل کے XOOPS ورژن میں اس کی ضرورت ہوگی۔');
+
+تبدیل شدہ تعریفیں۔
+htdocs/xoops_lib/modules/protector/language/english/admin.php
+- define('_AM_TXT_HOWTOCHANGEDB',"اگر آپ سابقہ ​​تبدیل کرنا چاہتے ہیں،<br> %s/data/secure.php کو دستی طور پر ترمیم کریں۔<br><br>define('XOOPS_DB_PREFIX', '<b>%s"</b>');
+
+htdocs/install/english/welcome.php
+- تجویز کردہ پی ایچ پی ورژن کو تبدیل کیا گیا، SELinux کے لیے خصوصی نوٹس کا سیکشن شامل کیا گیا۔
+
+/home/richard/sites/x258i/htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- '_AM_MODULEADMIN_ADMIN_FOOTER' کی تعریف میں، XOOPS لنکس کو 'https://xoops.org' میں تبدیل کر دیا گیا
+
+نئی فائلیں:
+n/a
+
+===============================
+2017/08/01: ورژن 2.5.9 فائنل
+===============================
+شامل کردہ/حذف شدہ تعریفیں۔
+
+htdocs/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- ڈیفائن شامل کی گئی('_AM_MODULEADMIN_ABOUT_AMOUNT'، 'رقم')؛
+- ڈیفائن ('_AM_MODULEADMIN_ABOUT_AMOUNT_TTL'، 'براہ کرم USD کی رقم درج کریں جیسے $25.00')؛
+- ڈیفائن ('_AM_MODULEADMIN_ABOUT_AMOUNT_CURRENCY', 'USD') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('_AM_MODULEADMIN_ABOUT_AMOUNT_SUGGESTED', '25.00')؛
+- added define('_AM_MODULEADMIN_ABOUT_AMOUNT_PATTERN', '\\$?[0-9]+(,[0-9]{3})*(\\.[0-9]{0,2})?$');
+- ڈیفائن ('_AM_MODULEADMIN_ABOUT_DONATE_IMG_ALT'، 'پے پال یا ایک بڑا کریڈٹ کارڈ آن لائن استعمال کرکے عطیہ کریں!')؛
+
+htdocs/install/language/english/install.php
+*نوٹ* انسٹالر کو نمایاں طور پر تبدیل کیا گیا تھا، اس لیے اس فائل کا باریک بینی سے جائزہ لیا جانا چاہیے۔
+- ڈیفائن شامل کی گئی ("CURL_HTTP"، "کلائنٹ یو آر ایل لائبریری (cURL)")؛
+- ڈیفائن شامل کی گئی('XOOPS_COOKIE_DOMAIN_LABEL', 'ویب سائٹ کے لیے کوکی ڈومین')؛
+- ڈیفائن ('XOOPS_COOKIE_DOMAIN_HELP'، 'کوکیز سیٹ کرنے کے لیے ڈومین۔ خالی ہو سکتا ہے، URL (www.example.com) سے مکمل ہوسٹ)، یا ذیلی ڈومینز (www.example.com اور blog.example.com) پر اشتراک کرنے کے لیے بغیر رجسٹرڈ ڈومین (example.com)؛
+- ڈیفائن ('INTL_SUPPORT'، 'انٹرنیشنلائزیشن فنکشنز') شامل کیا گیا؛
+- ڈیفائن ('XOOPS_SOURCE_CODE'، "XOOPS on GitHub") شامل کیا گیا؛
+- ڈیفائن ('XOOPS_INSTALLING'، 'انسٹال کرنا') شامل کیا گیا؛
+- ڈیفائن ('XOOPS_ERROR_ENCOUNTERED'، 'Error') شامل کیا گیا؛
+- ڈیفائن ('XOOPS_ERROR_SEE_BELOW'، 'پیغامات کے لیے نیچے ملاحظہ کریں۔')؛
+- ​​ڈیفائن ('MODULES_AVAILABLE'، 'دستیاب ماڈیولز') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی('INSTALL_THIS_MODULE'، 'Add%s')؛
+
+htdocs/install/language/english/finish.php
+- ماڈیولز اور تھیمز کے بارے میں معلومات کے لیے نئے صارفین کو xoops.org پر بھیجنے کے لیے تبدیل کریں۔
+
+htdocs/language/english/global.php
+- ڈیفائن ('_UPLOAD'، 'اپ لوڈ') شامل کیا گیا؛
+- ڈیفائن شامل کی گئی ('_SELECTFILES'، 'فائلیں منتخب کریں')؛
+- شامل کیا گیا define('_DROPFILESHERE'، 'فائلیں یہاں چھوڑیں')؛
+- شامل کیا گیا define('_RETRY'، 'دوبارہ کوشش کریں')؛
+- ڈیفائن ('_OK'، 'Ok') شامل کیا گیا؛
+- define('_FORMATPROGRESS', '{percent}% of {total_size}') کو شامل کیا گیا؛
+- ​​ڈیفائن شامل کی گئی('_FAILUPLOAD', 'اپ لوڈ ناکام!');
+- ڈیفائن شامل کی گئی('_WAITINGFORRESPONSE'، 'پروسیسنگ...')؛
+- ڈیفائن ('_PAUSED'، 'روکا ہوا') شامل کیا گیا؛
+- ڈیفائن ('_PROCESSINGDROPPEDFILES'، 'ڈراپ فائلوں پر کارروائی کی جا رہی ہے...')؛
+- define('_TYPEERROR', '{file} میں ایک غلط ایکسٹینشن ہے۔ درست توسیع(s): {extensions}!');
+- ڈیفائن ('_SIZEERROR'، '{file} بہت بڑی ہے، فائل کا زیادہ سے زیادہ سائز {sizeLimit} ہے!')؛
+- ڈیفائن ('_MINSIZEERROR'، '{file} بہت چھوٹی ہے، فائل کا کم از کم سائز {minSizeLimit} ہے!')؛
+- ڈیفائن ('_EMPTYERROR'، '{file} خالی ہے، براہ کرم اس کے بغیر فائلوں کو دوبارہ منتخب کریں!');
+- ​​شامل کیا گیا define('_NOFILESERROR'، 'اپ لوڈ کرنے کے لیے کوئی فائل نہیں!')؛
+- ڈیفائن ('_TOOMANYITEMSERROR'، 'بہت زیادہ آئٹمز ({netItems}) اپ لوڈ کیے جائیں گے۔ آئٹم کی حد {itemLimit} ہے!');
+- ڈیفائن ('_MAXHEIGHTIMAGEERROR'، 'تصویر بہت لمبی ہے!') شامل کی گئی
+- ڈیفائن ('_MAXWIDTHIMAGEERROR'، 'تصویر بہت وسیع ہے!') شامل کی گئی
+- ڈیفائن ('_MINHEIGHTIMAGEERROR'، 'تصویر کافی لمبی نہیں ہے!')؛
+- ڈیفائن شامل کی گئی('_MINWIDTHIMAGEERROR'، 'تصویر کافی چوڑی نہیں ہے!')؛
+- ڈیفائن شامل کی گئی
+- ​​شامل کیا گیا define('_ONLEAVE', 'فائلیں اپ لوڈ ہو رہی ہیں، اگر آپ ابھی چھوڑ دیتے ہیں تو اپ لوڈ منسوخ ہو جائے گا!');
+- ڈیفائن ('_UNSUPPORTEDBROWSERIOS8SAFARI'، 'ناقابلِ اصلاح ایرر - یہ براؤزر iOS8 سفاری میں سنگین بگس کی وجہ سے کسی بھی قسم کی فائل اپ لوڈ کرنے کی اجازت نہیں دیتا ہے۔ براہ کرم iOS8 کروم کا استعمال کریں جب تک کہ ایپل ان مسائل کو حل نہیں کرتا!');
+
+htdocs/language/english/uploader.php
+- شامل کیا گیا define('_ER_UP_INISIZE', 'اپ لوڈ کردہ فائل php.ini میں upload_max_filesize ہدایت سے زیادہ ہے')؛
+- شامل کیا گیا define('_ER_UP_FORMSIZE', 'اپ لوڈ کردہ فائل MAX_FILE_SIZE ہدایت سے زیادہ ہے جو HTML فارم میں بیان کی گئی تھی')؛
+- ڈیفائن کو شامل کیا گیا('_ER_UP_PARTIAL', 'اپ لوڈ کردہ فائل صرف جزوی طور پر اپ لوڈ کی گئی تھی')؛
+- ڈیفائن شامل کی گئی('_ER_UP_NOFILE'، 'کوئی فائل اپ لوڈ نہیں ہوئی')؛
+- شامل کیا گیا define('_ER_UP_NOTMPDIR'، 'عارضی فولڈر غائب')؛
+- ڈیفائن شامل کی گئی('_ER_UP_CANTWRITE'، 'ڈسک پر فائل لکھنے میں ناکام')؛
+- شامل کیا گیا define('_ER_UP_EXTENSION', 'فائل اپ لوڈ ایکسٹینشن کے ذریعے روک دیا گیا۔ phpinfo()' دیکھیں)؛
+- ڈیفائن ('_ER_UP_UNKNOWN'، 'نامعلوم اپ لوڈ ایرر') شامل کیا گیا؛
+
+htdocs/language/english/user.php
+- ​​حذف شدہ define('_US_USECOOKIE', 'میرے صارف نام کو 1 سال کے لیے کوکی میں اسٹور کریں')؛
+
+htdocs/modules/profile/language/english/admin.php
+- ڈیفائن شامل کی گئی('_PROFILE_AM_CANNOTDEACTIVATEWEBMASTERS'، 'آپ ویب ماسٹر اکاؤنٹ کو غیر فعال نہیں کر سکتے')؛
+
+htdocs/modules/system/language/english/admin/comments.php
+- ڈیفائن ('_MP_DELETECOUNT'، 'گروپ میں ممبران کی تعداد بہت زیادہ ہے (> 4,000)')؛
+
+htdocs/modules/system/language/english/admin/userrank.php
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_USERRANK_ERROR', 'Errors')؛
+
+upgrade/language/english/upgrade.php
+- ڈیفائن ('_LANGUAGE', 'Language') شامل کیا گیا؛
+- شامل کی تعریف ('_SUPPORT'، 'سپورٹ')؛
+- ڈیفائن ('_XOOPS_SOURCE_CODE', 'XOOPS on GitHub') شامل کیا گیا؛
+- ڈیفائن ('_PATCH_COUNT'، 'پیچ سیٹ') شامل کیا گیا؛
+- ڈیفائن ('_USERNAME_PLACEHOLDER'، 'آپ کا صارف نام') شامل کیا گیا؛
+- ڈیفائن ('_PASSWORD_PLACEHOLDER'، 'آپ کا پاس ورڈ') شامل کیا گیا؛
+- شامل کیا گیا define('_CONTINUE'، 'جاری رکھیں')؛
+- ڈیفائن ('XOOPS_ERROR_ENCOUNTERED'، 'Error') شامل کیا گیا؛
+- ڈیفائن ('XOOPS_ERROR_SEE_BELOW'، 'پیغامات کے لیے نیچے ملاحظہ کریں۔')؛
+
+htdocs/themes/xbootstrap/language/english/main.php
+- ڈیفائن شامل کی گئی("THEME_USER_WELCOME"، "خوش آمدید")؛
+
+نئی فائلیں:
+- htdocs/modules/system/themes/transition/language/english/admin.php
+- htdocs/modules/system/themes/transition/language/english/localsupport.php
+
+- اپ گریڈ/زبان/انگریزی/
+*نوٹ* اپ گریڈ کوڈ کو نمایاں طور پر تبدیل کر دیا گیا تھا، اس لیے ان فائلوں کا باریک بینی سے جائزہ لیا جانا چاہیے۔
+- تمام فی پیچ لینگویج فائلوں کو پیچ ڈائریکٹریز سے اپ گریڈ/زبان/* میں منتقل کیا گیا
+  یعنی upgrade/upd-2.0.18-to-2.3.0/language/english.php بن گیا
+  upgrade/language/english/upd-2.0.18-to-2.3.0.php
+
+- upgrade/language/english/support.php (htdocs/install/language/english/support.php کی طرح)
+- اپ گریڈ/language/english/welcome.php
+
+===============================
+2016/05/27: ورژن 2.5.8
+===============================
+شامل کردہ/حذف شدہ تعریفیں۔
+
+/install/language/english/install.php
+/modules/system/language/english/admin/modulesadmin.php
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_MODULES_INSTALL_MORE',"مزید ماڈیولز انسٹال کریں")؛
+
+/modules/system/language/english/admin/users.php
+define('_AM_SYSTEM_USERS_ACTIVATE'، 'صارف کو چالو کریں')؛
+
+/modules/system/language/english/blocks.php
+define('_MB_SYSTEM_BLOCK_HEIGHT',"بلاک کی اونچائی (لائنز)")؛
+
+install/language/english/install.php
+define('CHMOD_CHGRP_REPEAT'، 'دوبارہ کوشش کریں')؛
+define('CHMOD_CHGRP_IGNORE'، 'ویسے بھی استعمال کریں')؛
+define('CHMOD_CHGRP_ERROR'، 'انسٹالر کنفیگریشن فائل %1$s لکھنے کے قابل نہیں ہوسکتا ہے۔<p>PHP صارف %2$s اور گروپ %3$s کے تحت فائلیں لکھ رہا ہے۔<p>سخت
+
+تبدیل شدہ تعریفیں۔
+xoops_lib/modules/protector/language/english/modinfo.php
+وضاحت کریں($constpref . '_HIJACK_TOPBITDSC'، ...
+
+/modules/system/themes/default/language/english/admin.php
+define('_OXYGEN_CODESVN'، 'کوڈ ریپوزٹری')؛
+
+install/language/english/install.php
+define('SAVED_MAINFILE'، 'ترتیبات محفوظ ہو گئیں')؛
+define('ERR_NEED_WRITE_ACCESS'، 'سرور کو درج ذیل فائلوں اور فولڈرز تک تحریری رسائی دی جانی چاہیے<br />(یعنی <em>chmod 775 Directory_name</em> UNIX/LINUX سرور پر)<br />اگر وہ دستیاب نہیں ہیں یا صحیح طریقے سے تخلیق نہیں کیے گئے ہیں، تو براہ کرم فی منشن تخلیق کریں۔
+define('ERR_COPY_MAINFILE', 'ڈسٹری بیوشن فائل کو %s میں کاپی نہیں کیا جا سکا')؛
+define('ERR_WRITE_MAINFILE', '%s میں نہیں لکھا جا سکا۔ براہ کرم فائل کی اجازت چیک کریں اور دوبارہ کوشش کریں۔');
+define('ERR_READ_MAINFILE'، 'پڑھنے کے لیے %s نہیں کھول سکا')؛
+
+/modules/system/themes/zetadigme/language/english/admin.php
+define('_MD_CODESVN'، 'کوڈ ریپوزٹری')؛
+
+نئی فائلیں:
+/language/english/stopwords.php
+/language/english/xmf.php
+
+اپ ڈیٹ شدہ XoopsMailerLocal کلاس کی مثال:
+htdocs/language/english/xoopsmailerlocal.php
+
+===============================
+2014/06/14: ورژن 2.5.7 فائنل
+===============================
+شامل کردہ/حذف شدہ تعریفیں۔
+
+/install/language/english/install.php
+- شامل کی گئی تعریف('WRITTEN_LICENSE',"تحریری XOOPS %s لائسنس کلید: <strong>%s</strong>");
+
+===============================
+2014/03/18: ورژن 2.5.7 RC1
+===============================
+شامل کردہ/حذف شدہ تعریفیں۔
+
+/modules/system/language/english/admin.php
+- ڈیفائن شامل کی گئی('_AM_SYSTEM_USAGE',"استعمال")؛
+- ڈیفائن ('_AM_SYSTEM_ACTIVE',"Active") شامل کیا گیا؛
+
+
+===============================
+2012/04/15: ورژن 2.5.5
+===============================
+شامل کردہ/حذف شدہ تعریفیں۔
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+- ڈیفائن ("_AM_MODULEADMIN_HOME"، "گھر") شامل کیا گیا؛
+- ڈیفائن ("_AM_MODULEADMIN_DASHBOARD"، "ڈیش بورڈ") شامل کیا گیا؛
+- شامل کیا گیا define("_AM_MODULEADMIN_ABOUT"، "کے بارے میں")؛
+- ڈیفائن شامل کی گئی("_AM_MODULEADMIN_PERMISSIONS"، "اجازتیں")؛
+- ڈیفائن شامل کیا گیا("_AM_MODULEADMIN_ABOUT_RELEASEDATE","ریلیز:")؛
+- ڈیفائن شامل کی گئی("_AM_MODULEADMIN_ABOUT_AUTHOR","مصنف:")؛
+- ڈیفائن شامل کی گئی("_AM_MODULEADMIN_ABOUT_CREDITS","کریڈٹس:")؛
+- ڈیفائن شامل کی گئی("_AM_MODULEADMIN_ABOUT_LICENSE","لائسنس:")؛
+- ڈیفائن ("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","مصنف کا نام: ") شامل کیا گیا؛
+- ڈیفائن شامل کی گئی("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","مصنف کی معلومات")؛
+- ڈیفائن شامل کیا گیا("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>اس ماڈیول کی دیکھ بھال <a class='tooltip' rel='external' href='http://xoops.org/' title='XOOPS Community>'XOOPS Community وزٹ کریں'/OOPS Community</Sv>" کے ذریعہ کی گئی ہے۔
+
+/language/english/calendar.php
+- ڈیفائن ("_CAL_FORMAT","Y-m-d") شامل کیا گیا؛
+
+/xoops_lib/modules/protector/language/english/modinfo.php
+
+- ڈیفائن شامل کی گئی($constpref."_ADMINHOME","Home")؛
+- شامل کیا گیا define($constpref."_ADMINABOUT","کے بارے میں")؛
+- ڈیفائن شامل کی گئی($constpref.'_STOPFORUMSPAM_ACTION','Stop Forum Spam');
+- ڈیفائن شامل کی گئی
+
+
+/install/language/english/install.php
+- ڈیفائن ("FILTER_FUNCTIONS"، "فلٹر فنکشنز") شامل کیا گیا؛
+
+/language/english/global.php
+- ڈیفائن ('_DBDATESTRING'، 'Y-m-d') شامل کیا گیا؛
+- ڈیفائن ('_DBTIMESTRING'، 'H:i:s') شامل کیا گیا؛
+- ڈیفائن ('_DBTIMESTAMPSTRING'، 'Y-m-d H:i:s') شامل کی گئی؛
+
+/language/english/pmsg.php
+- ڈیفائن ('_PM_READ'، 'پہلے سے پڑھا ہوا') شامل کیا گیا؛
+
+/modules/system/language/english/admin.php
+- ڈیفائن ("_AM_SYSTEM_UNINSTALL","Uninstall") شامل کیا گیا؛
+
+یہ بھی دیکھیں:
+/modules/profile/docs/lang_diff.txt
+
+===============================
+2011/11/17: ورژن 2.5.4
+===============================
+
+/Frameworks/moduleclasses/moduleadmin/language/english/main.php
+_AM_MODULEADMIN_CONFIG_DB
+_AM_MODULEADMIN_CONFIG_ADMIN
+
+===============================
+2011/10/10: ورژن 2.5.4 RC
+===============================
+
+نئی فائلیں:
+ماڈیول/pm/language/english/help/help.html
+ماڈیول/profile/language/english/help/help.html
+ماڈیول/protector/language/english/help/help.html
+
+شامل کردہ/حذف شدہ تعریفیں۔
+
+/language/english/pmsg.php
+ڈیلیٹ ڈیفائن('_PM_READ'، 'پہلے ہی پڑھا ہوا')؛
+
+/language/english/user.php
+- ڈیفائن ('_US_SKYPE'، 'Skype') شامل کیا گیا؛
+- ڈیفائن ('_US_FACEBOOK'، 'فیس بک') شامل کیا گیا؛
+
+/modules/pm/language/english/main.php
+- حذف شدہ define("_PM_RECEIVE","RECEIVE")؛
+- ڈیفائن کو حذف کر دیا گیا("_PM_POST","POST")؛
+- ڈیفائن کو حذف کر دیا گیا("_PM_READBOX","READBOX")؛
+- حذف شدہ ڈیفائن("_PM_RSAVEBOX","Receive_SAVEBOX")؛
+- ڈیفائن کو حذف کر دیا گیا("_PM_SENTBOX","SENTBOX")؛
+- ڈیفائن کو حذف کر دیا گیا ("_PM_PSAVEBOX","Post_SAVEBOX")؛
+- ڈیفائن کو حذف کر دیا گیا("_PM_SAVED","کامیابی سے محفوظ کیا گیا")؛
+- ڈیفائن کو حذف کر دیا گیا("_PM_TOC","منجانب:")؛
+- ڈیفائن کو حذف کر دیا گیا("_PM_UID","بھیجنے والے کی ID")؛
+
+/language/english/findusers.php
+- ڈیفائن شامل کی گئی ('_MA_USER_FACEBOOK'، 'فیس بک لنک')؛ //کرنا
+- شامل کیا گیا define('_MA_USER_SKYPE', 'Skype Link')؛//TO DO
+
+/modules/pm/language/english/modinfo.php
+- شامل کی تعریف ("_PM_MI_ABOUT"، "کے بارے میں")؛
+
+/modules/profile/language/english/admin.php
+- ڈیفائن ('_PROFILE_AM_ACTION'، 'ایکشن') شامل کیا گیا؛
+
+/modules/profile/language/english/modinfo.php
+- ڈیفائن ("_PROFILE_MI_ABOUT"، "About") شامل کیا گیا؛
+- ڈیفائن ("_PROFILE_MI_HOME"، "Home") شامل کیا گیا؛
+
+
+/modules/system/language/english/admin/preferences.php
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL","عام ترتیبات")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS","صارف کی معلومات کی ترتیبات")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER","Meta Tags and Footer")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR","ورڈ سنسرنگ کے اختیارات")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH","تلاش کے اختیارات")؛
+- ​​حذف شدہ define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER","ای میل سیٹ اپ")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION","تصدیق کے اختیارات")؛*/
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL","A faire")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSETTINGS","A faire")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER","A faire")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR","A faire")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH","A faire")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER","A faire")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION","A faire")؛
+- ڈیفائن ڈیلیٹ ("_MD_AM_LOADINGIMG"، "ڈسپلے لوڈنگ... امیج؟")؛
+- ڈیفائن کو حذف کر دیا گیا ("_MD_AM_CHNGUTHEME"، "تمام صارفین کی تھیم تبدیل کریں")؛
+
+/modules/system/language/english/admin/users.php
+- ڈیفائن شامل کی گئی("_AM_SYSTEM_USERS_ACCEPT_EMAIL","ایڈمن کی طرف سے ای میل قبول کریں")؛
+
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_NAV_MANAGER","صارف مینیجر")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_USERPOST","صارف کی پوسٹس")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_STORIES","کہانیاں")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_COMMENTS","تبصرے")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_USERS_PTBBTSDIYT","اگر آپ کو لگتا ہے کہ صارف کی مندرجہ بالا پوسٹس کی معلومات اصل حالت کی نشاندہی نہیں کرتی ہیں تو ڈیٹا کو ہم آہنگ کرنے کے لیے نیچے والے بٹن کو دبائیں")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_CNGTCOM","کل تبصرے نہیں مل سکے")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_CNGTST","کل کہانیاں نہیں مل سکیں")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_LIST","فہرست")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_USERPOST","صارف کی پوسٹس")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_STORIES","کہانیاں")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_COMMENTS","تبصرے")؛
+- حذف شدہ ڈیفائن("_AM_SYSTEM_USERS_PTBBTSDIYT","اگر آپ کو لگتا ہے کہ صارف کی مندرجہ بالا پوسٹس کی معلومات اصل حالت کی نشاندہی نہیں کرتی ہے تو ڈیٹا کو ہم آہنگ کرنے کے لیے نیچے والے بٹن کو دبائیں")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_CNGTCOM","تمام تبصرے نہیں مل سکے")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_CNGTST","تمام کہانیاں حاصل نہیں ہو سکیں")؛
+- ڈیفائن کو حذف کر دیا گیا("_AM_SYSTEM_USERS_LIST","فہرست")؛
+
+xoops_lib/modules/protector/language/english/admin.php
+- ڈیفائن ("_AM_ADV_REGISTERGLOBALS2","" اور اس میں نیچے لائن رکھیں:") شامل کی گئی
+
+تبدیل شدہ فائلیں:
+
+/modules/system/language/english/admin/users.php (Mamba)/
+/language/english/mail_template/activated.tpl
+/language/english/mail_template/adminactivate.tpl
+/language/english/mail_template/lostpass1.tpl
+/language/english/mail_template/lostpass2.tpl
+/language/english/mail_template/register.tpl
+/language/english/mail_template/welcome.tpl
+/modules/system/language/english/admin/avatars.php
+/modules/system/language/english/admin/banners.php
+/modules/system/language/english/admin/blocksadmin.php
+/modules/system/language/english/admin/comments.php
+/modules/system/language/english/admin/preferences.php
+/modules/system/language/english/admin/userrank.php
+/modules/system/language/english/admin/users.php
+/modules/system/language/english/help/mailusers.html
+/modules/system/language/english/help/preferences.html
+/modules/system/language/english/admin.php
+/modules/system/language/english/blocks.php
+/modules/system/language/english/modinfo.php
+/modules/system/themes/default/language/english/admin.php
+/modules/system/themes/zetadigme/language/english/admin.php
+/themes/suico/language/english/main.php
+/themes/zetagenesis/language/english/main.php
+
+
+===============================
+2011/10/05: ورژن 2.5.4 بیٹا
+===============================
+- کئی انگریزی ترجمے اپ ڈیٹ کیے گئے (DCrussader/Mamba)
+- حذف شدہ زبان/english/calendar.php _CAL_DEF_DATE_FORMAT
+- حذف شدہ زبان/english/calendar.php _CAL_TT_DATE_FORMAT
+- حذف شدہ ماڈیول/system/language/english/admin/users.php _AM_SYSTEM_USERS_NAV_MANAGER
+- حذف شدہ ماڈیول/system/language/english/admin/preferences.php _MD_AM_LOADINGIMG
+- حذف شدہ ماڈیول/system/language/english/admin/preferences.php _MD_AM_CHNGUTHEME
+- حذف شدہ ماڈیولز/pm/language/english/admin/main.php _PM_RECEIVE, _PM_POST, _PM_READBOX, _PM_RSAVEBOX, _PM_SENTBOX, _PM_PSAVEBOX, _PM_CMAVED_TO,
+- شامل کیا گیا /modules/profile/language/english/admin.php _PROFILE_AM_ACTION
+- شامل کیا گیا /modules/profile/language/english/main.php _PROFILE_MI_ABOUT
+- شامل کیا گیا /modules/profile/language/english/main.php _PROFILE_MI_HOME
+- شامل کیا گیا /modules/pm/language/english/modinfo.php _PM_MI_ABOUT
+- شامل کیے گئے ماڈیولز/system/language/english/admin/users.php _AM_SYSTEM_USERS_FACEBOOK، _AM_SYSTEM_USERS_SKYPE
+- شامل کردہ زبان/انگریزی/user.php _US_SKYPE، _US_FACEBOOK
+
+xoops_lib/modules/protector/language/english/modinfo.php
+- ڈیفائن شامل کی گئی($constpref.'_STOPFORUMSPAM_ACTION','Stop Forum Spam');
+- ڈیفائن شامل کی گئی
+
+
+
+===============================
+2011/09/06: ورژن 2.5.2 RC
+===============================
+ - شامل کردہ زبان/انگریزی/misc.php _MSC_CLICK_TO_OPEN_IMAGE, _MSC_RESIZED_IMAGE, _MSC_ORIGINAL_IMAGE
+ - شامل کی گئی زبان/انگریزی/pmsg.php _PM_SURE_TO_DELETE, _PM_READ
+ - شامل کیے گئے ماڈیولز/pm/language/english/admin/main.php _PM_READ, _PM_SUBJECT_ICONS
+ - ماڈیول\system/language/english/admin/tplsets.php _AM_SYSTEM_TEMPLATES_SET
+ - ہٹائے گئے ماڈیولز/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
+ - ہٹائے گئے ماڈیول/system/language/english/admin/blocksadmin.php _AM_SYSTEM_BLOCKS_SAVE
+ - شامل کی گئی زبان/انگلش/calendar.php _CAL_DEF_DATE_FORMAT
+ - شامل کی گئی زبان/انگلش/calendar.php _CAL_TT_DATE_FORMAT
+
+===============================
+2011/03/15: ورژن 2.5.1 RC
+===============================
+
+شامل کردہ زبان کے مستقل:
+  modules/system/language/english/admin/images.php _AM_SYSTEM_IMAGES_URL
+  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
+
+ترمیم شدہ زبان کے مستقل:
+  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_ABOUT_TEXT, _OXYGEN_WEBSITE
+  modules/system/language/english/helper/help_center.html, modulesadmin.html
+
+ہٹائے گئے زبان کے مستقل:
+  ماڈیول/سسٹم/تھیمز/default/language/english/admin/admin.php _OXYGEN_SOURCEFORGE_TEXT, _OXYGEN_POWERED_BY
+  ماڈیول/سسٹم/تھیمز/default/language/english/admin/admin.php _OXYGEN_SOURCEFORGE_TEXT, _OXYGEN_POWERED_BY
