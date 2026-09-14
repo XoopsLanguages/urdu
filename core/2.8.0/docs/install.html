@@ -1,0 +1,135 @@
+html پبلک "-//W3C//DTD HTML 4.01 عبوری//EN"
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>XOOPS تنصیب کی ہدایات</title>
+<meta content="XOOPS" name="keywords"/>
+<meta content="XOOPS installation guide" name="description"/>
+<style type="text/css">
+        body {
+            font-family:                        Lucida Grande, Verdana, Geneva, Sans-serif;
+            margin:                             0;
+            padding:                            0;
+            font-size:                          13px;
+            color:                              #333;
+            background-color:                   #fff;
+        }
+
+        a {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+            font-weight:                        normal;
+        }
+
+        a:visited {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+        }
+
+        a:hover {
+            color:                              #3D9DD3;
+            text-decoration:                    none;
+            background-color:                   transparent;
+        }
+
+        .page {
+            background-color:                   #fff;
+            margin:                             10px 30px 0;
+            padding:                            0;
+        }
+
+        .page h1 {
+            background-color:                   transparent;
+            border-bottom:                      1px solid #999;
+            color:                              #000;
+            font-size:                          18px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h2 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          16px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h3 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          14px;
+            font-weight:                        bold;
+        }
+
+        .page ul {
+            margin:                             20px 0 15px 0;
+        }
+
+        .page li {
+            margin-bottom:                      9px;
+        }
+
+        .page li p {
+            margin-left:                        0;
+            margin-right:                       0;
+        }
+
+        p {    }
+
+    </style>
+</head>
+<body>
+<div class="page">
+<h1>XOOPS انسٹال کرنا</h1>
+<h2>پہلی بار انسٹالیشن</h2>
+<h3>پیش لفظ:</h3>
+<p>
+<abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> ایک اوپن سورس ہے۔
+        آبجیکٹ اورینٹڈ ویب پبلشنگ سسٹم پی ایچ پی میں لکھا گیا ہے۔ کے لیے ایک مثالی ٹول ہے۔
+        چھوٹی سے بڑی متحرک کمیونٹی ویب سائٹس، انٹرا کمپنی پورٹلز، کارپوریٹ پورٹلز، ویبلاگز اور بہت کچھ تیار کرنا۔
+    </p>
+<p>
+        XOOPS کی شرائط کے تحت جاری کیا گیا ہے۔
+        <a href="https://www.gnu.org/licenses/gpl-2.0.html" rel="external">GNU جنرل پبلک لائسنس (GPL)</a>
+        ورژن 2 یا اس سے زیادہ، اور استعمال اور ترمیم کرنے کے لیے آزاد ہے۔
+        جب تک آپ GPL کی تقسیم کی شرائط کی پابندی کرتے ہیں یہ دوبارہ تقسیم کرنا مفت ہے۔
+    </p>
+<h2>ضروریات</h2>
+<ul>
+<li>WWW سرور (<a href="http://www.apache.org/" rel="external">اپاچی۔</a>, <a href="https://www.nginx.com/" rel="external" s="">این جی آئی این ایکس</a>، IIS، وغیرہ)</li>
+<li><a href="https://www.php.net/" rel="external">پی ایچ پی</a> 8.2 یا اس سے زیادہ، 8.4+ تجویز کردہ</li>
+<li><a href="https://www.mysql.com/" rel="external">مائی ایس کیو ایل</a> 5.7.8 یا اس سے زیادہ، MySQL 8.4.5+ تجویز کردہ</li>
+</ul>
+<h3>انسٹال کرنے سے پہلے</h3>
+<ol>
+<li>WWW سرور، پی ایچ پی اور ڈیٹا بیس سرور کو درست طریقے سے ترتیب دیں۔</li>
+<li>اپنی XOOPS سائٹ کے لیے ڈیٹا بیس تیار کریں۔</li>
+<li>صارف اکاؤنٹ تیار کریں اور صارف کو ڈیٹا بیس تک رسائی فراہم کریں۔</li>
+<li>ڈائریکٹریز اور فائلوں کو قابل تحریر بنائیں: %s</li>
+<li>حفاظتی تحفظات کے پیش نظر، آپ کو سختی سے مشورہ دیا جاتا ہے کہ نیچے کی دو ڈائریکٹریوں کو باہر منتقل کر دیں۔ <a href="http://phpsec.org/projects/guide/3.html" rel="external">دستاویز کی جڑ</a> اور فولڈر کے نام تبدیل کریں: %s</li>
+<li>بنائیں (اگر پہلے سے موجود نہیں ہے) اور ڈائریکٹریز کو قابل تحریر بنائیں: %s</li>
+<li>اپنے براؤزر کی کوکی اور جاوا اسکرپٹ کو آن کریں۔</li>
+</ol>
+<h2>مقامی طور پر انسٹال کرنا</h2>
+<p>اگر آپ ترقی یا جانچ کے لیے مقامی ماحول چلا رہے ہیں، تو یقینی بنائیں کہ آپ کے پاس پچھلا ہے۔
+    ضروریات کو پورا کیا. ایک بار جب یہ ہو جائے تو، کے مندرجات کو کاپی کریں۔ <em>htdocs</em> directory (from the XOOPS
+    distribution file) to the root document path of your web environment. Once the files are copied there,
+    you can start the install by pointing you browser to "http://<em>yoursite.com</em>"۔ یہ انسٹال کرنے کا عمل شروع کر دے گا۔
+</p>
+<h2>میزبان پلیٹ فارم پر انسٹال کرنا</h2>
+<p>اگر آپ میزبان ماحول میں چل رہے ہیں، تو XOOPS فائلوں کو مقامی طور پر یا سرور پر کھولیں اگر آپ کے پاس ہے
+    شیل (یعنی SSH) تک رسائی۔ ایک بار مکمل ہو جانے کے بعد، تمام XOOPS فائلوں کو سے منتقل یا کاپی کرنا یقینی بنائیں <em>htdocs</em>
+    آپ کی روٹ ویب ڈائرکٹری میں ڈائرکٹری (آپ کا فراہم کنندہ عام طور پر اس مقام کو ہدایات کے ساتھ فراہم کرتا ہے)۔
+    ایک بار فائلیں وہاں کاپی ہو جانے کے بعد، آپ اپنے براؤزر کی طرف اشارہ کر کے انسٹال شروع کر سکتے ہیں۔
+    "http://<em>yoursite.com</em>"۔ یہ انسٹال کرنے کا عمل شروع کر دے گا۔
+</p>
+<h2>انسٹال کرنا جاری ہے۔</h2>
+<p>انسٹالر میں قدم بہ قدم ہدایات پر عمل کریں۔</p>
+</div>
+</body>
+</html>
